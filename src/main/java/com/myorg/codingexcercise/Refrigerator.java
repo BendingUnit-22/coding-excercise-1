@@ -56,11 +56,11 @@ class Shelf{
 
   // java getter
   int getCurrentCapacity(){
-    System.out.print("space filled: " + this.currentCap + "/ " + this.capacity + "          [" );
-    for (Item item: this.container){
-      System.out.print(item.getCubicFt() + ",");
-    }
-    System.out.println("]");
+    // System.out.print("space filled: " + this.currentCap + "/ " + this.capacity + "          [" );
+    // for (Item item: this.container){
+    //   System.out.print(item.getCubicFt() + ",");
+    // }
+    // System.out.println("]");
     return currentCap;
   }
 
